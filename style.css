@@ -1,0 +1,23 @@
+
+body{
+    background: slategray;
+    
+}
+.head{
+    padding-top: 20px;
+    color: white;
+}
+input[type=text],
+input[type=text]:focus{
+    color: dodgerblue;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+.todos li{
+    background: lightcoral;
+    color: white;
+}
+.delete{
+    cursor: pointer;
+}
